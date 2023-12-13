@@ -1,0 +1,16 @@
+public class workers {
+
+    public string name;
+    private integer working_hours=0;
+    public decimal income;
+    public decimal expense;
+    public static integer total_hours=0;
+   
+        public void addHours(integer x){
+        working_hours += x;
+        total_hours += x;
+        }
+    public integer hours(){
+        return working_hours;
+    }
+}
