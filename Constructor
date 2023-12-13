@@ -1,0 +1,21 @@
+public class workers {
+
+    public string name;
+    private integer working_hours=0;
+    public decimal income;
+    public decimal expense;
+    public static integer total_hours=0;
+    
+    public workers(string workername){
+        name=workername;
+        system.debug('Contructor method is working...');
+    }
+   
+    public void addHours(integer x){
+        working_hours += x;
+        total_hours += x;
+        }
+    public integer hours(){
+        return working_hours;
+    }
+}
