@@ -8,7 +8,7 @@ public class workers {
     
     public workers(string workername){
         name=workername;
-        system.debug('Contructor method is working...');
+        system.debug('Constructor method is working...');
     }
    
     public void addHours(integer x){
