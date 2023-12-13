@@ -1,0 +1,21 @@
+public class firstClass {
+    
+    private integer calassNumber;
+    
+    public static void aMethod(string newname){
+        username=newname;
+    }
+    
+    public static void welcome(){
+        if(string.isNotBlank(username)){
+        system.debug('Hello '+ username);
+        }
+        else{    public static string username;
+
+            system.debug('username is null now.');
+        }
+    }
+    public static void welcome(integer age){
+        system.debug('I\'m '+ age +' years old');
+    }
+}
